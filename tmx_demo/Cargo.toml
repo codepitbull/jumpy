@@ -1,0 +1,16 @@
+[package]
+name = "tmxdemo"
+version = "0.1.0"
+authors = ["Jochen Mader <jochen@codepitbull.de>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+quicksilver = "*"
+image = "0.20"
+futures = "0.1"
+regex = "1"
+hex = "0.3.2"
+
+[dependencies.tmx_reader]
+path = "../tmx_reader"
