@@ -38,6 +38,9 @@ let map = Map::new(contents.as_str());
 
 ```
 
+#Demo and WASM
+A full demo, which also works inside the browser using WASM is located [HERE](https://github.com/codepitbull/tmx_reader/tree/master/tmx_demo).
+
 # Aim
 I have no idea if this will ever be a useful crate :)
 
