@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Jochen Mader <jochen@codepitbull.de>"]
 edition = "2018"
 description = "A rough implementation of a reader for TMX (Tiled) files."
+repository = "https://github.com/codepitbull/tmx_reader"
 
 [dependencies]
 quick-xml = "0.13.2"
